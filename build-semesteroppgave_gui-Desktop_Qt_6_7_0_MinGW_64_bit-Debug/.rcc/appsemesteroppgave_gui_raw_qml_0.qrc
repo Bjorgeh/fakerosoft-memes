@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/semesteroppgave_gui/">
+    <file alias="Main.qml">C:/semesteroppgave_23/semesteroppgave_gui/Main.qml</file>
+    <file alias="login/LoginPage.qml">C:/semesteroppgave_23/semesteroppgave_gui/login/LoginPage.qml</file>
+  </qresource>
+</RCC>
+
