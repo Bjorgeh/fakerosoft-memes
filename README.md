@@ -1,6 +1,17 @@
 # semesteroppgave_23
 System design and architecture
 
+Important info for collabs:
+Project is coded in Qt creator 11.0.3 - with kit Desktop Qt 6.7.0 MinGW 64-bit
+
+|----------------------------------------------|
+TestUsers: 
+Admin: admin@memes.com pw: adminPassword
+Teacher: teacher@memes.com pw: teacherPassword
+Student: student@memes.com pw: studentPassword
+|----------------------------------------------|
+
+
 
 High Level functionality diagram for the project
 ![High level functionality diagram](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/efec58f7-cd46-4039-be30-84ebbbb8c107)
