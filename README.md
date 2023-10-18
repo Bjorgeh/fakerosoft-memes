@@ -5,9 +5,9 @@ Important info for collabs:
 Project is coded in Qt creator 11.0.3 - with kit Desktop Qt 6.7.0 MinGW 64-bit
 
 |----------------------------------------------|<br>
-TestUsers: 
-Admin: admin@memes.com pw: adminPassword
-Teacher: teacher@memes.com pw: teacherPassword
+TestUsers: <br>
+Admin: admin@memes.com pw: adminPassword<br>
+Teacher: teacher@memes.com pw: teacherPassword<br>
 Student: student@memes.com pw: studentPassword<br>
 
 |----------------------------------------------|<br>
