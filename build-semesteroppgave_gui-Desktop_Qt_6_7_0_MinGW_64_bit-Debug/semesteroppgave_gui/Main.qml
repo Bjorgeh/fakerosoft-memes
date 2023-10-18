@@ -25,7 +25,7 @@ Window {
         currentIndex: 0
 
         //set true for test, skips login
-        interactive: false
+        interactive: true
 
         // Page 1 (login)
         Rectangle {
