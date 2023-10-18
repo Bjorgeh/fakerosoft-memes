@@ -9,7 +9,8 @@ TestUsers:
 Admin: admin@memes.com pw: adminPassword
 Teacher: teacher@memes.com pw: teacherPassword
 Student: student@memes.com pw: studentPassword<br>
-|----------------------------------------------|
+
+|----------------------------------------------|<br>
 
 
 
