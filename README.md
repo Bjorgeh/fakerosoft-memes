@@ -11,7 +11,7 @@ The functionality diagram above can be divided into high to medium level, where 
 
 Here, the user is asked to enter a username and password when logging in, the information is passed on in the system and is checked against an authorization function, based on the response from this, the user is given choices that are displayed only for their role.
 
-<big><b>The administrator role</b></big> has the choices here as seen further in the diagram:
+<h1><b>The administrator role</b></h1> has the choices here as seen further in the diagram:
 <br>
 ![2](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/b88091f9-9131-4571-a956-5c058a9958cb)
  
