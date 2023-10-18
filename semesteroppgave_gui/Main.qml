@@ -1,6 +1,8 @@
 import QtQuick
 import QtQuick.Window
+import QtQuick.Controls
 import "./login" as L
+import "./defaultpage" as D
 
 Window {
     id: root
@@ -9,16 +11,34 @@ Window {
     visible: true
     title: qsTr("Fakerosoft Memes")
 
+    //Color variables for easy dynamics
     property string backgroundColor: "midnightblue"
+    property string topMenuBarColor: "darkgray"
 
-    //Rectangel for login page on main page
-    Rectangle{
+    //Login name
+    property string loggedIn: ""
+
+    //SwipeView for page swipeing
+    SwipeView {
+        id: swipeViewFrontpage
         anchors.fill: parent
-        color: backgroundColor
+        currentIndex: 0
 
-        //Loads login page
-        L.LoginPage{
+        //set true for test, skips login
+        interactive: false
 
+        // Page 1 (login)
+        Rectangle {
+
+            L.LoginPage {
+            }
+        }
+
+        // page 2 (default)
+        Rectangle {
+
+            D.StartPage{
+            }
         }
     }
 }

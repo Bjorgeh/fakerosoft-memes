@@ -70,15 +70,17 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -93,7 +95,13 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/login/loginPage.qml",
+			"path" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/login/LoginPage.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StartPage.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -105,7 +113,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/login/loginPage.qml.rule",
+			"path" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/login/LoginPage.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StartPage.qml.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

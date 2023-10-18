@@ -2,6 +2,7 @@
   <qresource prefix="/qt/qml/semesteroppgave_gui/">
     <file alias="Main.qml">C:/semesteroppgave_23/semesteroppgave_gui/Main.qml</file>
     <file alias="login/LoginPage.qml">C:/semesteroppgave_23/semesteroppgave_gui/login/LoginPage.qml</file>
+    <file alias="defaultpage/StartPage.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StartPage.qml</file>
   </qresource>
 </RCC>
 

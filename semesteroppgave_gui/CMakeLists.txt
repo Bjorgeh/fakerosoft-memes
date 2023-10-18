@@ -17,6 +17,11 @@ qt_add_qml_module(appsemesteroppgave_gui
     VERSION 1.0
     QML_FILES Main.qml
     QML_FILES login/LoginPage.qml
+    SOURCES auth.h auth.cpp
+    SOURCES users.h users.cpp
+    QML_FILES defaultpage/StartPage.qml
+
+
 
 )
 

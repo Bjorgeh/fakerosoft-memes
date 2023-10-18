@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "users",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "getUser",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "users",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newUser",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setUser",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newPass",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setPass",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "users.h",
+    "outputRevision": 68
+}

@@ -928,7 +928,21 @@
 	"CMAKE_SOURCE_DIR" : "C:/semesteroppgave_23/semesteroppgave_gui",
 	"DEP_FILE" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appsemesteroppgave_gui_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/semesteroppgave_23/semesteroppgave_gui/auth.h",
+			"MU",
+			"EWIEGA46WW/moc_auth.cpp",
+			null
+		],
+		[
+			"C:/semesteroppgave_23/semesteroppgave_gui/users.h",
+			"MU",
+			"EWIEGA46WW/moc_users.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/mocs_compilation.cpp",
@@ -1005,7 +1019,8 @@
 	"MOC_SKIP" : 
 	[
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_Main_qml.cpp",
-		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_login/loginPage_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StartPage_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_login/LoginPage_qml.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_semesteroppgave_gui.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_qmltyperegistrations.cpp"
@@ -1025,14 +1040,17 @@
 			"MU",
 			null
 		],
-		[ "C:/semesteroppgave_23/semesteroppgave_gui/main.cpp", "MU", null ]
+		[ "C:/semesteroppgave_23/semesteroppgave_gui/auth.cpp", "MU", null ],
+		[ "C:/semesteroppgave_23/semesteroppgave_gui/main.cpp", "MU", null ],
+		[ "C:/semesteroppgave_23/semesteroppgave_gui/users.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_Main_qml.cpp",
-		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_login/loginPage_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StartPage_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_login/LoginPage_qml.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_semesteroppgave_gui.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_qmltyperegistrations.cpp"

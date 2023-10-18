@@ -3,4 +3,5 @@ typeinfo appsemesteroppgave_gui.qmltypes
 prefer :/qt/qml/semesteroppgave_gui/
 Main 1.0 Main.qml
 LoginPage 1.0 login/LoginPage.qml
+StartPage 1.0 defaultpage/StartPage.qml
 
