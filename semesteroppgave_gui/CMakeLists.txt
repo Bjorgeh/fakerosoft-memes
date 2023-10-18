@@ -20,6 +20,10 @@ qt_add_qml_module(appsemesteroppgave_gui
     SOURCES auth.h auth.cpp
     SOURCES users.h users.cpp
     QML_FILES defaultpage/StartPage.qml
+    QML_FILES defaultpage/AdminButtons/AdminCreateUserButton.qml
+    QML_FILES defaultpage/AdminButtons/AdminEditButton.qml
+    QML_FILES defaultpage/AdminButtons/AdminDeleteButton.qml
+
 
 
 

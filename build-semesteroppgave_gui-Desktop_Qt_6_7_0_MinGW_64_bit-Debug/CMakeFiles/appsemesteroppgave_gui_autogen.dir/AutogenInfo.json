@@ -1019,6 +1019,9 @@
 	"MOC_SKIP" : 
 	[
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_Main_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminButtons/AdminCreateUserButton_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminButtons/AdminDeleteButton_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminButtons/AdminEditButton_qml.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StartPage_qml.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_login/LoginPage_qml.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp",
@@ -1049,6 +1052,9 @@
 	"UIC_SKIP" : 
 	[
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_Main_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminButtons/AdminCreateUserButton_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminButtons/AdminDeleteButton_qml.cpp",
+		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminButtons/AdminEditButton_qml.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StartPage_qml.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_login/LoginPage_qml.cpp",
 		"C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp",
