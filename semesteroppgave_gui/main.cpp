@@ -16,11 +16,11 @@ int main(int argc, char *argv[])
     users* userLogin = new users();
 
     //Adds new users and adds to the userList vector.
-    users* admin = new users("admin@memes.com","adminPassword");
+    users* admin = new users("admin@memes.com","adminPassword",1111);
     authorizate->userList.push_back(admin);
-    users* teacher = new users("teacher@memes.com","teacherPassword");
+    users* teacher = new users("teacher@memes.com","teacherPassword",2222);
     authorizate->userList.push_back(teacher);
-    users* student = new users("student@memes.com","studentPassword");
+    users* student = new users("student@memes.com","studentPassword",3333);
     authorizate->userList.push_back(student);
 
 /*

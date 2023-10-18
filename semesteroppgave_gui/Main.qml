@@ -15,6 +15,11 @@ Window {
     property string backgroundColor: "midnightblue"
     property string topMenuBarColor: "darkgray"
 
+    //Variables for usercode
+    property bool isAdmin: false
+    property bool isTeacher: false
+    property bool isStudent: false
+
     //Login name
     property string loggedIn: ""
 
@@ -25,7 +30,7 @@ Window {
         currentIndex: 0
 
         //set true for test, skips login
-        interactive: true
+        interactive: false
 
         // Page 1 (login)
         Rectangle {

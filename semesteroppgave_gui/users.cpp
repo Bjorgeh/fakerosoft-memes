@@ -7,10 +7,11 @@ users::users(QObject *parent)
 
 }
 //Adds new user with name and pw
-users::users(QString newUser, QString newPass)
+users::users(QString newUser, QString newPass, int userCo)
 {
     user = newUser;
     password = newPass;
+    userCode = userCo;
 }
 
 QString users::getUser()
@@ -21,6 +22,16 @@ QString users::getUser()
 QString users::getPass()
 {
     return password;
+}
+
+int users::getUserCode()
+{
+    return userCode;
+}
+
+int users::setCode(int code)
+{
+    userCode = code;
 }
 
 //Sets new username to obj

@@ -13,6 +13,7 @@ bool auth::authorize(users *userObj)
     for(int i{0}; i < userList.length(); i++){
         if(userList.at(i)->getUser() == userObj->getUser() && userList.at(i)->getPass() == userObj->getPass()){
             userExist = true;
+            userObj->setCode(userList.at(i)->getUserCode());
             return true;
         }
     }

@@ -71,6 +71,13 @@ Page {
                             //Sets loggedin as the logged in username
                             loggedIn = userLogin.getUser();
 
+                            //Updates bool variables for user role
+                            isAdmin = userLogin.getUserCode() === 1111 ? true : false
+                            isTeacher = userLogin.getUserCode() === 2222 ? true : false
+                            isStudent = userLogin.getUserCode() === 3333 ? true : false
+
+                            //console.log(isAdmin, isTeacher, isStudent)
+                            //console.log(userLogin.getUserCode())
                         }
                     }
                 }

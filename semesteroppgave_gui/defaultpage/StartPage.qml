@@ -67,52 +67,63 @@ Page {
                 spacing: 10
                 x: 15
                 y: 15
-                /*This Columns should be visiable only for admins*/
+                /*This Columns is visiable only for admins*/
                 Column{
                     Label{text:"Admins:"
-                        color: "white"} //Remove this later
+                        color: "white"
+                    visible: isAdmin}
                     Label{
                         text: "Create user"
                         color: "white"
+                        visible: isAdmin
                     }
                     Label{
                         text: "Edit user"
                         color: "white"
+                        visible: isAdmin
                     }
                     Label{
                         text: "Delete user"
                         color: "white"
+                        visible: isAdmin
                     }
                 }
-                /*This Column should be visible only for teachers*/
+                /*This Column is visible only for teachers*/
                 Column{
                     Label{text:"Teachers:"
-                        color: "white"} //Remove this later
+                        color: "white"
+                    visible: isTeacher} //Remove this later
                     Label{
                         text: "Create classroom"
                         color: "white"
+                        visible: isTeacher
                     }
 
                 }
-                /*This Column should be visible only for Students*/
+                /*This Column is visible only for Students*/
                 Column{
                     Label{text:"Students:"
-                        color: "white"} //Remove this later
+                        color: "white"
+                    visible: isStudent} //Remove this later
                     Label{
                         text: "Enter Classroom"
                         color: "white"
+                        visible: isStudent
                     }
                     Label{
                         text: "Take course"
                         color: "white"
+                        visible: isStudent
                     }
                     Label{
                         text: "Take test"
                         color: "white"
+                        visible: isStudent
                     }
                     Label{
                         text: "View grades"
                         color: "white"
+                        visible: isStudent
                     }
                 }
             }
