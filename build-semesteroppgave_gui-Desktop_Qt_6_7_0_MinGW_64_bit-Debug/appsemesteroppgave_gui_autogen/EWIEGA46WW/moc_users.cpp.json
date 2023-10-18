@@ -7,6 +7,22 @@
                     "access": "public",
                     "name": "getUser",
                     "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "getUserCode",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "code",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setCode",
+                    "returnType": "int"
                 }
             ],
             "object": true,
