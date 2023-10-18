@@ -1,5 +1,5 @@
 # semesteroppgave_23
-Systemdesign og arkitektur
+System design and architecture
 
 
 High Level functionality diagram for the project
