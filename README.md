@@ -19,7 +19,7 @@ A user with this role has access to 'user management', where you can create new 
 <br>
 ![3](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/ef6baa12-bc54-4e14-bb1e-ac049e5c28dd)
 
-<h1><b></b>Teacher role:</b></h1>
+<h1><b>Teacher role:</b></h1>
 <br>
 ![4](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/218c24e8-69d5-4a46-9e1a-156299ecfe1e)
 
@@ -40,7 +40,7 @@ Furthermore, the user will be able to view a student's statistics:
 ![7](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/a6656e1a-a5e7-42b6-b73c-fa0752ac885e)
 
 The functionality here to be able to follow a student's development and comment on places in the statistics where desired, this will be able to be printed if necessary. From this part of the program, teachers will also be able to publish grades or changes for students.
-The student role
+<h1><b>The student role</b></h1>
 <br>
 ![8](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/0bcda561-746c-40d9-b5fc-8038a40ea2b2)
 
