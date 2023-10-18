@@ -42,11 +42,13 @@ Furthermore, the user will be able to view a student's statistics:
 The functionality here to be able to follow a student's development and comment on places in the statistics where desired, this will be able to be printed if necessary. From this part of the program, teachers will also be able to publish grades or changes for students.
 <h1><b>The student role</b></h1>
 <br>
+
 ![8](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/0bcda561-746c-40d9-b5fc-8038a40ea2b2)
 
 A student logging into the program will have the choices of taking a course set up by a teacher, joining a classroom, taking a test or looking at their grades.
 In a course, this type of user will be able to read, see or listen to the information added by the teacher. Students will have access to classrooms they are members of, where digital teaching takes place through streaming, file sharing and chatting.
 <br>
+
 ![9](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/7d1b6342-b37f-47a0-830c-3c8b863a9040)
 
 The user also has access to tests that are easily answered and delivered, and look at their grades in the various subjects. Here, students can print grades themselves, if desired.
