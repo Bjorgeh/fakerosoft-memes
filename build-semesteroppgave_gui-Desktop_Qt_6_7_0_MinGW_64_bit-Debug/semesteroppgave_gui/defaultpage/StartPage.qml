@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Controls.Material
 import QtQuick.Layouts
+import "AdminButtons" as AdminButton
 
 Page {
     id: defaultPage
@@ -26,6 +27,9 @@ Page {
                     width: topMenuBar.width/4
                     height: topMenuBar.height
                     color: topMenuBarColor
+
+                    //imports Admin Create button
+                    AdminButton.AdminCreateUserButton{}
                 }
 
                 //Section 2 (middle left)
@@ -33,6 +37,8 @@ Page {
                     width: topMenuBar.width/4
                     height: topMenuBar.height
                     color: topMenuBarColor
+                    //imports Admin Edit button
+                    AdminButton.AdminEditButton{}
                 }
 
                 //Section 3 (middle right)
@@ -40,6 +46,8 @@ Page {
                     width: topMenuBar.width/4
                     height: topMenuBar.height
                     color: topMenuBarColor
+                    //imports Admin delete button
+                    AdminButton.AdminDeleteButton{}
                 }
 
                 //Section 4 (far right)
@@ -69,9 +77,11 @@ Page {
                 y: 15
                 /*This Columns is visiable only for admins*/
                 Column{
-                    Label{text:"Admins:"
+                    Label{
+                        text:"Admin Menu:"
                         color: "white"
-                    visible: isAdmin}
+                        visible: isAdmin
+                    } //Maybe remove this later
                     Label{
                         text: "Create user"
                         color: "white"
@@ -90,9 +100,11 @@ Page {
                 }
                 /*This Column is visible only for teachers*/
                 Column{
-                    Label{text:"Teachers:"
+                    Label{
+                        text:"Teacher Menu:"
                         color: "white"
-                    visible: isTeacher} //Remove this later
+                        visible: isTeacher
+                    } //maybe Remove this later
                     Label{
                         text: "Create classroom"
                         color: "white"
@@ -102,9 +114,11 @@ Page {
                 }
                 /*This Column is visible only for Students*/
                 Column{
-                    Label{text:"Students:"
+                    Label{
+                        text:"Student Menu:"
                         color: "white"
-                    visible: isStudent} //Remove this later
+                        visible: isStudent
+                    } //maybe Remove this later
                     Label{
                         text: "Enter Classroom"
                         color: "white"

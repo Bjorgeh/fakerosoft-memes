@@ -4,4 +4,7 @@ prefer :/qt/qml/semesteroppgave_gui/
 Main 1.0 Main.qml
 LoginPage 1.0 login/LoginPage.qml
 StartPage 1.0 defaultpage/StartPage.qml
+AdminCreateUserButton 1.0 defaultpage/AdminButtons/AdminCreateUserButton.qml
+AdminEditButton 1.0 defaultpage/AdminButtons/AdminEditButton.qml
+AdminDeleteButton 1.0 defaultpage/AdminButtons/AdminDeleteButton.qml
 

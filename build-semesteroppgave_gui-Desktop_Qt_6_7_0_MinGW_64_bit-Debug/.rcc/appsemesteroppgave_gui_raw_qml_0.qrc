@@ -3,6 +3,9 @@
     <file alias="Main.qml">C:/semesteroppgave_23/semesteroppgave_gui/Main.qml</file>
     <file alias="login/LoginPage.qml">C:/semesteroppgave_23/semesteroppgave_gui/login/LoginPage.qml</file>
     <file alias="defaultpage/StartPage.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StartPage.qml</file>
+    <file alias="defaultpage/AdminButtons/AdminCreateUserButton.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminCreateUserButton.qml</file>
+    <file alias="defaultpage/AdminButtons/AdminEditButton.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml</file>
+    <file alias="defaultpage/AdminButtons/AdminDeleteButton.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml</file>
   </qresource>
 </RCC>
 
