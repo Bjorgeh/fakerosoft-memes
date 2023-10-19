@@ -72,7 +72,76 @@ In a course, this type of user will be able to read, see or listen to the inform
 The user also has access to tests that are easily answered and delivered, and look at their grades in the various subjects. Here, students can print grades themselves, if desired.
 
 
-Backend functionality:
+<h1>Backend functionality</h1>
+
+###GUI <br>
+
+![loginside](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/d1071cc9-6f3d-4dbe-a706-233faa5647ed)
+
+Our graphical userinterface is built with tools from Qt. We use QML and javaScript for frontend and C++ for backend functionality. The program has three different user roles.
+
+These are divided as shown below:
+| Roles  | Codes |
+| ------------- | ------------- |
+| Administrators  | 1111  |
+| Teachers  | 2222  |
+| Students  | 3333  |
+
+
+The program is set up with default users for testing functionality, so that it is possible to log in and try the program without having to create a new user.
+
+ 
+
+This is not sensitive information in any way, so we can share this without worry so that those who wish can try the platform:
+
+Username
+
+Password
+
+Role
+
+admin@memes.com
+
+adminPassword
+
+1111
+
+teacher@memes.com
+
+teacherPassword
+
+2222
+
+student@memes.com
+
+studentPassword
+
+3333
+
+ 
+
+The three different logins show different pages after authorisation, i.e.
+
+If you log in as the admin user, you can add, delete or change users.
+
+If you log in as the teacher user, you can create classrooms, create courses, start teaching, see student statistics and the like.
+
+If you log in as the student user, you can attend classes, take tests, courses and see grades.
+
+Class diagram for gui:
+
+ 
+
+ 
+
+In this diagram, we see when a user interacts with our platform at login level. User enters info, our frontend functions send the information to a C++ backend where there is an auth class. This class checks whether the information entered by the user matches any of the user objects in the "database" vector.
+
+This vector is exchanged with external databases before launch.
+
+As evident in the users class, a user of the program essentially only has a username, a password and a role. -> This has expansion potential with more classes that can process more user data such as a person class.
+
+
 <br>
+
 ![klassediagram1](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/4402c5e1-6b7a-424a-b45a-f6b08ac8e777)
 
