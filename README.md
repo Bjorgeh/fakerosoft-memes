@@ -99,17 +99,17 @@ This is not sensitive information in any way, so we can share this without worry
 
 The three different logins show different pages after authorisation, i.e.
 
-If you log in as the admin user, you can add, delete or change users.<br>
+If you log in as the admin user, you can add, delete or change users.
 
 ![adminPage](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/69140ac7-f6e3-4372-b137-cfed784de2f8)
 
 
-If you log in as the teacher user, you can create classrooms, create courses, start teaching, see student statistics and the like.<br>
+If you log in as the teacher user, you can create classrooms, create courses, start teaching, see student statistics and the like.
 
 ![teacherPage](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/75a74fa4-9dd5-4dbb-a78b-f95e8eae5b89)
 
 
-If you log in as the student user, you can attend classes, take tests, courses and see grades.<br>
+If you log in as the student user, you can attend classes, take tests, courses and see grades.
 
 ![studentPage](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/c5462020-b88d-46bc-869c-3c205405f264)
 
