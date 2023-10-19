@@ -99,16 +99,22 @@ This is not sensitive information in any way, so we can share this without worry
 
 The three different logins show different pages after authorisation, i.e.
 
-If you log in as the admin user, you can add, delete or change users.
+If you log in as the admin user, you can add, delete or change users.<br>
 
-If you log in as the teacher user, you can create classrooms, create courses, start teaching, see student statistics and the like.
+![adminPage](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/69140ac7-f6e3-4372-b137-cfed784de2f8)
 
-If you log in as the student user, you can attend classes, take tests, courses and see grades.
+
+If you log in as the teacher user, you can create classrooms, create courses, start teaching, see student statistics and the like.<br>
+
+![teacherPage](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/75a74fa4-9dd5-4dbb-a78b-f95e8eae5b89)
+
+
+If you log in as the student user, you can attend classes, take tests, courses and see grades.<br>
+
+![studentPage](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/c5462020-b88d-46bc-869c-3c205405f264)
+
 
 Class diagram for gui:
-
- 
-
 | Diagram | Explanation |
 | ------------- | ------------- |
 | ![klassediagram1](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/4402c5e1-6b7a-424a-b45a-f6b08ac8e777)  | <p>In this diagram, we see when a user interacts with our platform at login level. User enters info, our frontend functions send the information to a C++ backend where there is an auth class. This class checks whether the information entered by the user matches any of the user objects in the "database" vector. This vector is exchanged with external databases before launch. As evident in the users class, a user of the program essentially only has a username, a password and a role. -> This has expansion potential with more classes that can process more user data such as a person class. </p>|
