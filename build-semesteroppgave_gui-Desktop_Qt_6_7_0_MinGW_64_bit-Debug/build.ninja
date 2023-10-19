@@ -232,7 +232,7 @@ build all_qmllint_module: phony appsemesteroppgave_gui_qmllint_module
 #############################################
 # Utility command for appsemesteroppgave_gui_tooling
 
-build appsemesteroppgave_gui_tooling: phony semesteroppgave_gui/Main.qml semesteroppgave_gui/login/LoginPage.qml semesteroppgave_gui/defaultpage/StartPage.qml semesteroppgave_gui/defaultpage/AdminButtons/AdminCreateUserButton.qml semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml
+build appsemesteroppgave_gui_tooling: phony semesteroppgave_gui/Main.qml semesteroppgave_gui/login/LoginPage.qml semesteroppgave_gui/defaultpage/StartPage.qml semesteroppgave_gui/defaultpage/AdminButtons/AdminCreateUserButton.qml semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg
 
 
 #############################################
@@ -412,7 +412,7 @@ build .rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminButtons/AdminDeleteB
 #############################################
 # Custom command for .rcc\qrc_appsemesteroppgave_gui_raw_qml_0.cpp
 
-build .rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp: CUSTOM_COMMAND C$:/semesteroppgave_23/semesteroppgave_gui/Main.qml C$:/semesteroppgave_23/semesteroppgave_gui/login/LoginPage.qml C$:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StartPage.qml C$:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminCreateUserButton.qml C$:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml C$:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml .rcc/appsemesteroppgave_gui_raw_qml_0.qrc C$:/Qt/6.7.0/mingw_64/./bin/rcc.exe || appsemesteroppgave_gui_autogen appsemesteroppgave_gui_autogen_timestamp_deps appsemesteroppgave_gui_qmlimportscan appsemesteroppgave_gui_tooling
+build .rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp: CUSTOM_COMMAND C$:/semesteroppgave_23/semesteroppgave_gui/Main.qml C$:/semesteroppgave_23/semesteroppgave_gui/login/LoginPage.qml C$:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StartPage.qml C$:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminCreateUserButton.qml C$:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml C$:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml C$:/semesteroppgave_23/semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg .rcc/appsemesteroppgave_gui_raw_qml_0.qrc C$:/Qt/6.7.0/mingw_64/./bin/rcc.exe || appsemesteroppgave_gui_autogen appsemesteroppgave_gui_autogen_timestamp_deps appsemesteroppgave_gui_qmlimportscan appsemesteroppgave_gui_tooling
   COMMAND = cmd.exe /C "cd /D C:\semesteroppgave_23\build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug && C:\Qt\6.7.0\mingw_64\.\bin\rcc.exe --output C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp --name appsemesteroppgave_gui_raw_qml_0 C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/appsemesteroppgave_gui_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appsemesteroppgave_gui_raw_qml_0
   restat = 1
@@ -519,6 +519,15 @@ build semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml | ${cma
 
 
 #############################################
+# Custom command for semesteroppgave_gui\Images\Logo\FakerosoftLogo.jpg
+
+build semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg | ${cmake_ninja_workdir}semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg: CUSTOM_COMMAND C$:/semesteroppgave_23/semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg
+  COMMAND = cmd.exe /C "cd /D C:\semesteroppgave_23\semesteroppgave_gui && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/semesteroppgave_23/semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg"
+  DESC = Copying Images/Logo/FakerosoftLogo.jpg to C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg
+  restat = 1
+
+
+#############################################
 # Phony custom command for CMakeFiles\appsemesteroppgave_gui_qmlimportscan
 
 build CMakeFiles/appsemesteroppgave_gui_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appsemesteroppgave_gui_qmlimportscan: phony .qt_plugins/Qt6_QmlPlugins_Imports_appsemesteroppgave_gui.cmake
@@ -536,7 +545,7 @@ build .qt_plugins/Qt6_QmlPlugins_Imports_appsemesteroppgave_gui.cmake | ${cmake_
 #############################################
 # Phony custom command for CMakeFiles\appsemesteroppgave_gui_autogen_timestamp_deps
 
-build CMakeFiles/appsemesteroppgave_gui_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appsemesteroppgave_gui_autogen_timestamp_deps: phony .rcc/qmlcache/appsemesteroppgave_gui_qmlcache_loader.cpp C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a
+build CMakeFiles/appsemesteroppgave_gui_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appsemesteroppgave_gui_autogen_timestamp_deps: phony .rcc/qmlcache/appsemesteroppgave_gui_qmlcache_loader.cpp C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a
 
 
 #############################################
