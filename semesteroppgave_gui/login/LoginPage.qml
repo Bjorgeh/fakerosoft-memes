@@ -66,6 +66,7 @@ Page {
                                 blinkAnimation.start();
                                 //emailPrompt.clear()
                                 passwordPrompt.clear()
+                                console.log("Wrong username or password!")
                             }
 
                             //Sets loggedin as the logged in username
