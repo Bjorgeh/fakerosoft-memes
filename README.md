@@ -70,3 +70,9 @@ In a course, this type of user will be able to read, see or listen to the inform
 ![9](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/7d1b6342-b37f-47a0-830c-3c8b863a9040)
 
 The user also has access to tests that are easily answered and delivered, and look at their grades in the various subjects. Here, students can print grades themselves, if desired.
+
+
+Backend functionality:
+<br>
+![klassediagram1](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/4402c5e1-6b7a-424a-b45a-f6b08ac8e777)
+
