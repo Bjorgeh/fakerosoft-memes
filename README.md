@@ -89,36 +89,13 @@ These are divided as shown below:
 
 
 The program is set up with default users for testing functionality, so that it is possible to log in and try the program without having to create a new user.
-
- 
-
 This is not sensitive information in any way, so we can share this without worry so that those who wish can try the platform:
 
-Username
-
-Password
-
-Role
-
-admin@memes.com
-
-adminPassword
-
-1111
-
-teacher@memes.com
-
-teacherPassword
-
-2222
-
-student@memes.com
-
-studentPassword
-
-3333
-
- 
+| Username | Password | Role |
+| ------------- | ------------- | ------------- |
+| admin@memes.com | adminPassword  | 1111 |
+| teacher@memes.com | teacherPassword  | 2222 |
+| student@memes.com | studentPassword  | 3333 |
 
 The three different logins show different pages after authorisation, i.e.
 
@@ -135,15 +112,5 @@ Class diagram for gui:
 | Diagram | Explanation |
 | ------------- | ------------- |
 | ![klassediagram1](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/4402c5e1-6b7a-424a-b45a-f6b08ac8e777)  | In this diagram, we see when a user interacts with our platform at login level. User enters info, our frontend functions send the information to a C++ backend where there is an auth class. This class checks whether the information entered by the user matches any of the user objects in the "database" vector.
-
 This vector is exchanged with external databases before launch.
-
 As evident in the users class, a user of the program essentially only has a username, a password and a role. -> This has expansion potential with more classes that can process more user data such as a person class. |
-
-
-
-
-<br>
-
-
-
