@@ -74,7 +74,7 @@ The user also has access to tests that are easily answered and delivered, and lo
 
 <h1>Backend functionality</h1>
 
-<h2>GUI</h2> <br>
+GUI <br>
 
 ![loginside](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/d1071cc9-6f3d-4dbe-a706-233faa5647ed)
 
