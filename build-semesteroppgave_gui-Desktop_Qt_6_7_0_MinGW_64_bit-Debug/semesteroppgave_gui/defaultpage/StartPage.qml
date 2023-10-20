@@ -4,6 +4,7 @@ import QtQuick.Controls.Material
 import QtQuick.Layouts
 import "AdminButtons" as AdminButton
 import "TeacherButtons" as TeacherButton
+import "StudentButtons" as StudentButton
 
 Page {
     id: defaultPage
@@ -25,36 +26,51 @@ Page {
                 spacing: 10
                 //Section 1 (far left)
                 Rectangle {
-                    width: topMenuBar.width/4
+                    width: topMenuBar.width/5
                     height: topMenuBar.height
                     color: topMenuBarColor
 
                     //imports Admin Create button
                     AdminButton.AdminCreateUserButton{}
+                    //imports teacher create classroom button
                     TeacherButton.TeacherCreateClassroom{}
+                    //imports student enter classroom button
+                    StudentButton.StudentEnterClassroom{}
                 }
 
                 //Section 2 (middle left)
                 Rectangle {
-                    width: topMenuBar.width/4
+                    width: topMenuBar.width/5
                     height: topMenuBar.height
                     color: topMenuBarColor
                     //imports Admin Edit button
                     AdminButton.AdminEditButton{}
+                    StudentButton.StudentTakeCourse{}
                 }
 
                 //Section 3 (middle right)
                 Rectangle {
-                    width: topMenuBar.width/4
+                    width: topMenuBar.width/5
                     height: topMenuBar.height
                     color: topMenuBarColor
                     //imports Admin delete button
                     AdminButton.AdminDeleteButton{}
+                    StudentButton.StudentTakeTest{}
+                }
+
+                //Section 3 (middle right)
+                Rectangle {
+
+                    width: topMenuBar.width/5
+                    height: topMenuBar.height
+                    color: topMenuBarColor
+                    //imports Admin delete button
+                    StudentButton.StudentViewGrades{}
                 }
 
                 //Section 4 (far right)
                 Rectangle {
-                    width: topMenuBar.width/4
+                    width: topMenuBar.width/5
                     height: topMenuBar.height
                     color: topMenuBarColor
                     Label{

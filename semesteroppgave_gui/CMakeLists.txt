@@ -25,6 +25,10 @@ qt_add_qml_module(appsemesteroppgave_gui
     QML_FILES defaultpage/AdminButtons/AdminDeleteButton.qml
     RESOURCES Images/Logo/FakerosoftLogo.jpg
     QML_FILES defaultpage/TeacherButtons/TeacherCreateClassroom.qml
+    QML_FILES defaultpage/StudentButtons/StudentEnterClassroom.qml
+    QML_FILES defaultpage/StudentButtons/StudentTakeCourse.qml
+    QML_FILES defaultpage/StudentButtons/StudentTakeTest.qml
+    QML_FILES defaultpage/StudentButtons/StudentViewGrades.qml
 
 
 

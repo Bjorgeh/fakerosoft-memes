@@ -54,6 +54,34 @@ namespace _qt_qml_semesteroppgave_gui_defaultpage_TeacherButtons_TeacherCreateCl
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentEnterClassroom_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentTakeCourse_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentTakeTest_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentViewGrades_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -75,6 +103,10 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_AdminButtons_AdminEditButton_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_AdminButtons_AdminDeleteButton_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/TeacherButtons/TeacherCreateClassroom.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_TeacherButtons_TeacherCreateClassroom_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentEnterClassroom.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentEnterClassroom_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeCourse.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentTakeCourse_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeTest.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentTakeTest_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentViewGrades.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentViewGrades_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

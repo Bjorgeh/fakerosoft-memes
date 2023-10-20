@@ -7,6 +7,10 @@
     <file alias="defaultpage/AdminButtons/AdminEditButton.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml</file>
     <file alias="defaultpage/AdminButtons/AdminDeleteButton.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml</file>
     <file alias="defaultpage/TeacherButtons/TeacherCreateClassroom.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/TeacherButtons/TeacherCreateClassroom.qml</file>
+    <file alias="defaultpage/StudentButtons/StudentEnterClassroom.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StudentButtons/StudentEnterClassroom.qml</file>
+    <file alias="defaultpage/StudentButtons/StudentTakeCourse.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeCourse.qml</file>
+    <file alias="defaultpage/StudentButtons/StudentTakeTest.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeTest.qml</file>
+    <file alias="defaultpage/StudentButtons/StudentViewGrades.qml">C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StudentButtons/StudentViewGrades.qml</file>
     <file alias="Images/Logo/FakerosoftLogo.jpg">C:/semesteroppgave_23/semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg</file>
   </qresource>
 </RCC>
