@@ -7,7 +7,7 @@ Item {
     Button{
         anchors.centerIn: parent
         text: "Create classroom"
-        //Makes button visible only for user with admin role.
+        //Makes button visible only for user with teacher role.
         visible: isTeacher
 
         //Functionality will be added here.
