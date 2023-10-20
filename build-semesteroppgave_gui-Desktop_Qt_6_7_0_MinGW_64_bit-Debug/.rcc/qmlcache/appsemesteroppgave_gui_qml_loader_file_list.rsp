@@ -4,3 +4,4 @@
 /qt/qml/semesteroppgave_gui/defaultpage/AdminButtons/AdminCreateUserButton.qml
 /qt/qml/semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml
 /qt/qml/semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml
+/qt/qml/semesteroppgave_gui/defaultpage/TeacherButtons/TeacherCreateClassroom.qml
