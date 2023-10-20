@@ -3,6 +3,7 @@ import QtQuick.Controls
 import QtQuick.Controls.Material
 import QtQuick.Layouts
 import "AdminButtons" as AdminButton
+import "TeacherButtons" as TeacherButton
 
 Page {
     id: defaultPage
@@ -30,6 +31,8 @@ Page {
 
                     //imports Admin Create button
                     AdminButton.AdminCreateUserButton{}
+                    //imports teacher create classroom button
+                    TeacherButton.TeacherCreateClassroom{}
                 }
 
                 //Section 2 (middle left)

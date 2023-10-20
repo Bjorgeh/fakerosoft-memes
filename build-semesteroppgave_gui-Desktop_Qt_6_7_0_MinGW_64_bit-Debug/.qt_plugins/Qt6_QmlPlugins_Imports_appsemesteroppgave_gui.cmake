@@ -1,4 +1,4 @@
-set(qml_import_scanner_imports_count 28)
+set(qml_import_scanner_imports_count 29)
 set(qml_import_scanner_import_0 "CLASSNAME;QtQuick2Plugin;LINKTARGET;Qt6::qtquick2plugin;NAME;QtQuick;PATH;C:/Qt/6.7.0/mingw_64/qml/QtQuick;PLUGIN;qtquick2plugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/;RELATIVEPATH;QtQuick;TYPE;module;")
 set(qml_import_scanner_import_1 "CLASSNAME;QtQmlMetaPlugin;LINKTARGET;Qt6::QmlMeta;NAME;QtQml;PATH;C:/Qt/6.7.0/mingw_64/qml/QtQml;PLUGIN;qmlmetaplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/;RELATIVEPATH;QtQml;TYPE;module;")
 set(qml_import_scanner_import_2 "CLASSNAME;QtQmlPlugin;LINKTARGET;Qt6::qmlplugin;NAME;QtQml.Base;PATH;C:/Qt/6.7.0/mingw_64/qml/QtQml/Base;PLUGIN;qmlplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/Base/;RELATIVEPATH;QtQml/Base;TYPE;module;")
@@ -27,4 +27,5 @@ set(qml_import_scanner_import_24 "CLASSNAME;QtQuickLayoutsPlugin;LINKTARGET;Qt6:
 set(qml_import_scanner_import_25 "NAME;./login;PATH;C:/semesteroppgave_23/semesteroppgave_gui/Main.qml/login;TYPE;directory;")
 set(qml_import_scanner_import_26 "NAME;./defaultpage;PATH;C:/semesteroppgave_23/semesteroppgave_gui/Main.qml/defaultpage;TYPE;directory;")
 set(qml_import_scanner_import_27 "NAME;AdminButtons;PATH;C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StartPage.qml/AdminButtons;TYPE;directory;")
+set(qml_import_scanner_import_28 "NAME;TeacherButtons;PATH;C:/semesteroppgave_23/semesteroppgave_gui/defaultpage/StartPage.qml/TeacherButtons;TYPE;directory;")
 
