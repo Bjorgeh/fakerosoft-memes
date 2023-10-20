@@ -114,7 +114,7 @@ If you log in as the student user, you can attend classes, take tests, courses a
 ![studentPage](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/c5462020-b88d-46bc-869c-3c205405f264)
 
 
-Class diagram for gui:
+Class diagram for gui backend:
 | Diagram | Explanation |
 | ------------- | ------------- |
 | ![klassediagram1](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/4402c5e1-6b7a-424a-b45a-f6b08ac8e777)  | <p>In this diagram, we see when a user interacts with our platform at login level. User enters info, our frontend functions send the information to a C++ backend where there is an auth class. This class checks whether the information entered by the user matches any of the user objects in the "database" vector. This vector is exchanged with external databases before launch. As evident in the users class, a user of the program essentially only has a username, a password and a role. -> This has expansion potential with more classes that can process more user data such as a person class. </p>|
