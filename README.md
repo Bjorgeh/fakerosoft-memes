@@ -20,19 +20,19 @@ High Level functionality diagram for the project
 
 The functionality diagram above can be divided into high to medium level, where it may even have the potential to become a diagram of full spectrum caliber, going from high to low level. At the highest level, we have a GUI with login for users.
 
-![klassediagram1](https://github.com/Bjorgeh/fakerosoft-memes/assets/122554284/401ba662-41f9-4216-a465-72f405190393)<br>
+![1](https://github.com/Bjorgeh/fakerosoft-memes/assets/122554284/c78e1772-d389-431f-9e5d-166ca588e296)<br>
 
 Here, the user is asked to enter a username and password when logging in, the information is passed on in the system and is checked against an authorization function, based on the response from this, the user is given choices that are displayed only for their role.
 
 <h1><b>The administrator role</b></h1> has the choices here as seen further in the diagram:
 <br>
 
-![2](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/b88091f9-9131-4571-a956-5c058a9958cb)
+![2](https://github.com/Bjorgeh/fakerosoft-memes/assets/122554284/3f45ebe0-b3c2-49a2-bf50-f3c5ca722be0)
  
 A user with this role has access to 'user management', where you can create new users or edit existing users.
 <br>
+![Uploading 3.jpg…]()
 
-![3](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/ef6baa12-bc54-4e14-bb1e-ac049e5c28dd)
 
 <h1><b>Teacher role:</b></h1>
 <br>
