@@ -15,7 +15,7 @@ Student: student@memes.com pw: studentPassword<br>
 
 
 High Level functionality diagram for the project
-![High level functionality diagram](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/efec58f7-cd46-4039-be30-84ebbbb8c107)
+![High level functionality diagram](https://github.com/Bjorgeh/fakerosoft-memes/assets/122554284/efec58f7-cd46-4039-be30-84ebbbb8c107)
 
 The functionality diagram above can be divided into high to medium level, where it may even have the potential to become a diagram of full spectrum caliber, going from high to low level. At the highest level, we have a GUI with login for users.
 
