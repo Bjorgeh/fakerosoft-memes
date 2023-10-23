@@ -9,3 +9,6 @@
 /qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeCourse.qml
 /qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeTest.qml
 /qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentViewGrades.qml
+/qt/qml/semesteroppgave_gui/defaultpage/AdminComponents/ActiveUsers.qml
+/qt/qml/semesteroppgave_gui/defaultpage/StudentComponents/OptionList.qml
+/qt/qml/semesteroppgave_gui/defaultpage/TeacherComponents/OptionListT.qml

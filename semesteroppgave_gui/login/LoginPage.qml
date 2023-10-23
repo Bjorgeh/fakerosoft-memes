@@ -40,6 +40,7 @@ Page {
                     id: loginButton
                     anchors.bottom: parent.bottom
                     anchors.horizontalCenter: parent.horizontalCenter
+
                     text: "Login"
                     Material.background: loginButton.hovered ? "lightgreen" : parent.color;
 

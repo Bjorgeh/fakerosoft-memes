@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SC:\semesteroppgave_23\semesteroppgave_gui -BC:\semesteroppgave_23\build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug
+  command = C:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SC:\fakerosoft-memes\semesteroppgave_gui -BC:\fakerosoft-memes\build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug
   description = Re-running CMake...
   generator = 1
 

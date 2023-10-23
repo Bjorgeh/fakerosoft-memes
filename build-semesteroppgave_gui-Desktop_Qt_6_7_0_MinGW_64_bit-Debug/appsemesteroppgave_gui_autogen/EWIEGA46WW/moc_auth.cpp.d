@@ -1,5 +1,5 @@
-C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/EWIEGA46WW/moc_auth.cpp: C:/semesteroppgave_23/semesteroppgave_gui/auth.h \
-  C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/moc_predefs.h \
+C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/EWIEGA46WW/moc_auth.cpp: C:/fakerosoft-memes/semesteroppgave_gui/auth.h \
+  C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/moc_predefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -294,4 +294,4 @@ C:/semesteroppgave_23/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-De
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/semesteroppgave_23/semesteroppgave_gui/users.h
+  C:/fakerosoft-memes/semesteroppgave_gui/users.h

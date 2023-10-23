@@ -5,6 +5,9 @@ import QtQuick.Layouts
 import "AdminButtons" as AdminButton
 import "TeacherButtons" as TeacherButton
 import "StudentButtons" as StudentButton
+import "AdminComponents" as AdminComp
+import "TeacherComponents" as TeacherComp
+import "StudentComponents" as StudentComp
 
 Page {
     id: defaultPage
@@ -91,76 +94,20 @@ Page {
             color: "transparent"
 
             //Row 1 with column
-
             Row{
                 spacing: 10
                 x: 15
                 y: 15
-                /*This Columns is visiable only for admins*/
-                Column{
-                    Label{
-                        text:"Admin Menu:"
-                        color: "white"
-                        visible: isAdmin
-                    } //Maybe remove this later
-                    Label{
-                        text: "Create user"
-                        color: "white"
-                        visible: isAdmin
-                    }
-                    Label{
-                        text: "Edit user"
-                        color: "white"
-                        visible: isAdmin
-                    }
-                    Label{
-                        text: "Delete user"
-                        color: "white"
-                        visible: isAdmin
-                    }
-                }
-                /*This Column is visible only for teachers*/
-                Column{
-                    Label{
-                        text:"Teacher Menu:"
-                        color: "white"
-                        visible: isTeacher
-                    } //maybe Remove this later
-                    Label{
-                        text: "Create classroom"
-                        color: "white"
-                        visible: isTeacher
-                    }
 
-                }
-                /*This Column is visible only for Students*/
-                Column{
-                    Label{
-                        text:"Student Menu:"
-                        color: "white"
-                        visible: isStudent
-                    } //maybe Remove this later
-                    Label{
-                        text: "Enter Classroom"
-                        color: "white"
-                        visible: isStudent
-                    }
-                    Label{
-                        text: "Take course"
-                        color: "white"
-                        visible: isStudent
-                    }
-                    Label{
-                        text: "Take test"
-                        color: "white"
-                        visible: isStudent
-                    }
-                    Label{
-                        text: "View grades"
-                        color: "white"
-                        visible: isStudent
-                    }
-                }
+                //Shows acvite users - for admin
+                AdminComp.ActiveUsers{}
+
+                //Shows options - for teachers
+                TeacherComp.OptionListT{}
+
+                //Shows options - for students
+                StudentComp.OptionList{}
+
             }
         }
     }

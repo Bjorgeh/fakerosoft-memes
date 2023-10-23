@@ -82,6 +82,27 @@ namespace _qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentViewGrad
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_semesteroppgave_gui_defaultpage_AdminComponents_ActiveUsers_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_semesteroppgave_gui_defaultpage_StudentComponents_OptionList_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_semesteroppgave_gui_defaultpage_TeacherComponents_OptionListT_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -107,6 +128,9 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeCourse.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentTakeCourse_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeTest.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentTakeTest_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/StudentButtons/StudentViewGrades.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_StudentButtons_StudentViewGrades_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/AdminComponents/ActiveUsers.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_AdminComponents_ActiveUsers_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/StudentComponents/OptionList.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_StudentComponents_OptionList_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/semesteroppgave_gui/defaultpage/TeacherComponents/OptionListT.qml"), &QmlCacheGeneratedCode::_qt_qml_semesteroppgave_gui_defaultpage_TeacherComponents_OptionListT_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

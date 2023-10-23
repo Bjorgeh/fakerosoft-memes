@@ -29,8 +29,9 @@ qt_add_qml_module(appsemesteroppgave_gui
     QML_FILES defaultpage/StudentButtons/StudentTakeCourse.qml
     QML_FILES defaultpage/StudentButtons/StudentTakeTest.qml
     QML_FILES defaultpage/StudentButtons/StudentViewGrades.qml
-
-
+    QML_FILES defaultpage/AdminComponents/ActiveUsers.qml
+    QML_FILES defaultpage/StudentComponents/OptionList.qml
+    QML_FILES defaultpage/TeacherComponents/OptionListT.qml
 
 )
 
