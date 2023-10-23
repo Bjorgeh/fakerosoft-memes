@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0f8d39ea190ebf8ee274.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "semesteroppgave_gui",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-6159cb227b2abf43a3c3.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-25cff18d2800ba37dffe.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-62d683e05b52bc07c59f.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-c1d24a1b5cb4ee8833e3.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui-Debug-57e2f39a9e1fb74f2585.json",
+					"name" : "appsemesteroppgave_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui_autogen-Debug-4f6c21cbf09d586e796a.json",
+					"name" : "appsemesteroppgave_gui_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui_autogen_timestamp_deps-Debug-c039c4872b21185e9e56.json",
+					"name" : "appsemesteroppgave_gui_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui_qmlimportscan-Debug-a4972102dc0286ea8a51.json",
+					"name" : "appsemesteroppgave_gui_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui_qmllint-Debug-806a67fe8e62070a5251.json",
+					"name" : "appsemesteroppgave_gui_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui_qmllint_json-Debug-158e6d854400b8be4af3.json",
+					"name" : "appsemesteroppgave_gui_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui_qmllint_module-Debug-4d9573361274f2ba9dad.json",
+					"name" : "appsemesteroppgave_gui_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui_qmltyperegistration-Debug-98cedf288be7056d5e99.json",
+					"name" : "appsemesteroppgave_gui_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsemesteroppgave_gui_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsemesteroppgave_gui_tooling-Debug-ec591f2a30d805af868e.json",
+					"name" : "appsemesteroppgave_gui_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "C:/fakerosoft-memes/semesteroppgave_gui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,13 +1,16 @@
+//import libs
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Controls.Material
 import QtQuick.Layouts
-import "AdminButtons" as AdminButton
-import "TeacherButtons" as TeacherButton
-import "StudentButtons" as StudentButton
+//Imports Components
 import "AdminComponents" as AdminComp
 import "TeacherComponents" as TeacherComp
 import "StudentComponents" as StudentComp
+//Import buttons
+import "AdminComponents/AdminButtons" as AdminButtons
+import "TeacherComponents/TeacherButtons" as TeacherButtons
+import "StudentComponents/StudentButtons" as StudentButtons
 
 Page {
     id: defaultPage
@@ -31,14 +34,14 @@ Page {
                 Rectangle {
                     width: topMenuBar.width/5
                     height: topMenuBar.height
-                    color: topMenuBarColor
+                    color: topMenuBarColo
 
                     //imports Admin Create button
-                    AdminButton.AdminCreateUserButton{}
+                    AdminButtons.AdminCreateUserButton{}
                     //imports teacher create classroom button
-                    TeacherButton.TeacherCreateClassroom{}
+                    TeacherButtons.TeacherCreateClassroom{}
                     //imports student enter classroom button
-                    StudentButton.StudentEnterClassroom{}
+                    StudentButtons.StudentEnterClassroom{}
                 }
 
                 //Section 2 (middle left)
@@ -47,9 +50,9 @@ Page {
                     height: topMenuBar.height
                     color: topMenuBarColor
                     //imports Admin Edit button
-                    AdminButton.AdminEditButton{}
+                    AdminButtons.AdminEditButton{}
                     //imports student take course button
-                    StudentButton.StudentTakeCourse{}
+                    StudentButtons.StudentTakeCourse{}
                 }
 
                 //Section 3 (middle right)
@@ -59,9 +62,9 @@ Page {
                     color: topMenuBarColor
 
                     //imports Admin delete button
-                    AdminButton.AdminDeleteButton{}
+                    AdminButtons.AdminDeleteButton{}
                     //imports student Take test button
-                    StudentButton.StudentTakeTest{}
+                    StudentButtons.StudentTakeTest{}
                 }
 
                 //Section 3 (middle right)
@@ -71,7 +74,7 @@ Page {
                     height: topMenuBar.height
                     color: topMenuBarColor
                     //imports student view grades button
-                    StudentButton.StudentViewGrades{}
+                    StudentButtons.StudentViewGrades{}
                 }
 
                 //Section 4 (far right)

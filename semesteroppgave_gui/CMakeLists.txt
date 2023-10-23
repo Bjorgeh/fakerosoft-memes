@@ -19,20 +19,29 @@ qt_add_qml_module(appsemesteroppgave_gui
     QML_FILES login/LoginPage.qml
     SOURCES auth.h auth.cpp
     SOURCES users.h users.cpp
-    QML_FILES defaultpage/StartPage.qml
-    QML_FILES defaultpage/AdminButtons/AdminCreateUserButton.qml
-    QML_FILES defaultpage/AdminButtons/AdminEditButton.qml
-    QML_FILES defaultpage/AdminButtons/AdminDeleteButton.qml
-    RESOURCES Images/Logo/FakerosoftLogo.jpg
-    QML_FILES defaultpage/TeacherButtons/TeacherCreateClassroom.qml
-    QML_FILES defaultpage/StudentButtons/StudentEnterClassroom.qml
-    QML_FILES defaultpage/StudentButtons/StudentTakeCourse.qml
-    QML_FILES defaultpage/StudentButtons/StudentTakeTest.qml
-    QML_FILES defaultpage/StudentButtons/StudentViewGrades.qml
-    QML_FILES defaultpage/AdminComponents/ActiveUsers.qml
-    QML_FILES defaultpage/StudentComponents/OptionList.qml
-    QML_FILES defaultpage/TeacherComponents/OptionListT.qml
 
+    QML_FILES defaultpage/StartPage.qml
+
+    RESOURCES Images/Logo/FakerosoftLogo.jpg
+
+    #components
+    QML_FILES defaultpage/AdminComponents/ActiveUsers.qml
+    QML_FILES defaultpage/TeacherComponents/OptionListT.qml
+    QML_FILES defaultpage/StudentComponents/OptionList.qml
+
+    #componentButtons
+    ##
+    QML_FILES defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton.qml
+    QML_FILES defaultpage/AdminComponents/AdminButtons/AdminDeleteButton.qml
+    QML_FILES defaultpage/AdminComponents/AdminButtons/AdminEditButton.qml
+    ##
+    QML_FILES defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom.qml
+    ##
+    QML_FILES defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom.qml
+    QML_FILES defaultpage/StudentComponents/StudentButtons/StudentTakeCourse.qml
+    QML_FILES defaultpage/StudentComponents/StudentButtons/StudentTakeTest.qml
+    QML_FILES defaultpage/StudentComponents/StudentButtons/StudentViewGrades.qml
+    ##
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

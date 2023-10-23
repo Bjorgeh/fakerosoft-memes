@@ -137,55 +137,13 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminButtons/AdminCreateUserButton.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/TeacherButtons/TeacherCreateClassroom.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentButtons/StudentEnterClassroom.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeCourse.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeTest.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentButtons/StudentViewGrades.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
 			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminComponents/ActiveUsers.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/TeacherComponents/OptionListT.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -197,7 +155,49 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/TeacherComponents/OptionListT.qml",
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminDeleteButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminEditButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentTakeCourse.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentTakeTest.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentViewGrades.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -227,55 +227,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminButtons/AdminCreateUserButton.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminButtons/AdminEditButton.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminButtons/AdminDeleteButton.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/TeacherButtons/TeacherCreateClassroom.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentButtons/StudentEnterClassroom.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeCourse.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentButtons/StudentTakeTest.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentButtons/StudentViewGrades.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
 			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminComponents/ActiveUsers.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/TeacherComponents/OptionListT.qml.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -287,7 +245,49 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/TeacherComponents/OptionListT.qml.rule",
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminDeleteButton.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminEditButton.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentTakeCourse.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentTakeTest.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentViewGrades.qml.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
