@@ -99,7 +99,7 @@ If you log in as the admin user, you can add, delete or change users.
 
 If you log in as the teacher user, you can create classrooms, create courses, start teaching, see student statistics and the like.
 
-![teacherPage](https://github.com/Bjorgeh/semesteroppgave_23/assets/122554284/75a74fa4-9dd5-4dbb-a78b-f95e8eae5b89)
+![teacherPage](https://github.com/Bjorgeh/fakerosoft-memes/assets/122554284/81e6c48f-e489-4586-8005-f55ffa83adbd)
 
 If you log in as the student user, you can attend classes, take tests, courses and see grades.
 
