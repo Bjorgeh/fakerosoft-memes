@@ -4,16 +4,6 @@ System design and architecture
 Important info for testing:<br>
 Project is coded in Qt creator 11.0.3 - with kit Desktop Qt 6.7.0 MinGW 64-bit
 
-|----------------------------------------------|<br>
-TestUsers: <br>
-Admin: admin@memes.com pw: adminPassword<br>
-Teacher: teacher@memes.com pw: teacherPassword<br>
-Student: student@memes.com pw: studentPassword<br>
-
-|----------------------------------------------|<br>
-
-
-
 High Level functionality diagram for the project
 
 ![High level functionality diagram](https://github.com/Bjorgeh/fakerosoft-memes/assets/122554284/ff6dae80-ea48-4702-a7f5-a7e65374fccc)
