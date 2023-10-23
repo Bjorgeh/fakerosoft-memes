@@ -12,4 +12,7 @@ StudentEnterClassroom 1.0 defaultpage/StudentButtons/StudentEnterClassroom.qml
 StudentTakeCourse 1.0 defaultpage/StudentButtons/StudentTakeCourse.qml
 StudentTakeTest 1.0 defaultpage/StudentButtons/StudentTakeTest.qml
 StudentViewGrades 1.0 defaultpage/StudentButtons/StudentViewGrades.qml
+ActiveUsers 1.0 defaultpage/AdminComponents/ActiveUsers.qml
+OptionList 1.0 defaultpage/StudentComponents/OptionList.qml
+OptionListT 1.0 defaultpage/TeacherComponents/OptionListT.qml
 
