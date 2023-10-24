@@ -22,6 +22,16 @@ bool auth::authorize(users *userObj)
     return userExist;
 }
 
+//Returns list of all users with access codes.
+QVector<QString> auth::getAllUsers()
+{
+    QVector<QString> data;
+    for(int i{0}; i<userList.length(); i++){
+        data << userList.at(i)->getUser() << QString::number(userList.at(i)->getUserCode());
+    }
+    return data;
+}
+
 //Returns true or false
 bool auth::legitUser()
 {

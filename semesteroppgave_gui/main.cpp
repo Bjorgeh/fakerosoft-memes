@@ -27,7 +27,6 @@ int main(int argc, char *argv[])
     //Auth object, this will return true/false from obj->legitUser()
     authorizate->authorize(admin, userList);
 */
-
     engine.rootContext()->setContextProperty("authUser", authorizate);
     engine.rootContext()->setContextProperty("userLogin", userLogin);
 

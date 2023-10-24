@@ -27,12 +27,12 @@
 			"find_dependency",
 			"_qt_internal_find_qt_dependencies",
 			"add_dependencies",
-			"qt6_target_qml_sources",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
 			"cmake_language",
 			"_qt_internal_finalize_executable",
 			"qt6_finalize_target",
+			"qt6_target_qml_sources",
 			"target_include_directories",
 			"_qt_internal_qml_type_registration",
 			"target_sources",
@@ -105,13 +105,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 60,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 55,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
@@ -447,7 +447,48 @@
 				"parent" : 67
 			},
 			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 25,
+				"line" : 1,
+				"parent" : 69
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 746,
+				"parent" : 70
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 651,
+				"parent" : 71
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 651,
+				"parent" : 72
+			},
+			{
 				"command" : 14,
+				"file" : 5,
+				"line" : 3036,
+				"parent" : 73
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 2889,
+				"parent" : 74
+			},
+			{
+				"command" : 19,
 				"file" : 5,
 				"line" : 636,
 				"parent" : 15
@@ -456,47 +497,6 @@
 				"command" : 13,
 				"file" : 5,
 				"line" : 2356,
-				"parent" : 69
-			},
-			{
-				"file" : 1,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 19,
-				"file" : 25,
-				"line" : 1,
-				"parent" : 71
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 746,
-				"parent" : 72
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 651,
-				"parent" : 73
-			},
-			{
-				"command" : 16,
-				"file" : 0,
-				"line" : 651,
-				"parent" : 74
-			},
-			{
-				"command" : 15,
-				"file" : 5,
-				"line" : 3036,
-				"parent" : 75
-			},
-			{
-				"command" : 13,
-				"file" : 5,
-				"line" : 2889,
 				"parent" : 76
 			},
 			{
@@ -575,13 +575,13 @@
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 28,
 				"file" : 5,
 				"line" : 2243,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
@@ -593,169 +593,169 @@
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2139,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2292,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 27,
 				"file" : 5,
 				"line" : 2375,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 26,
@@ -779,7 +779,7 @@
 				"command" : 29,
 				"file" : 0,
 				"line" : 741,
-				"parent" : 72
+				"parent" : 70
 			},
 			{
 				"command" : 22,
@@ -1141,11 +1141,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 70,
-			"id" : "appsemesteroppgave_gui_tooling::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 77,
+			"backtrace" : 75,
 			"id" : "appsemesteroppgave_gui_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -1154,6 +1150,10 @@
 		{
 			"backtrace" : 0,
 			"id" : "appsemesteroppgave_gui_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "appsemesteroppgave_gui_tooling::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appsemesteroppgave_gui::@6890427a1f51a3e7e1df",

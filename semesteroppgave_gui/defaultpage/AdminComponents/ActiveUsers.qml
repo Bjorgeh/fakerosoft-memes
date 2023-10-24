@@ -1,30 +1,45 @@
-import QtQuick
-import QtQuick.Controls
-import QtQuick.Controls.Material
-import QtQuick.Layouts
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Controls.Material 2.15
+import QtQuick.Layouts 1.15
 
 Item {
-    Column{
-        id: adminAcviteUserCol
-        Label{
-            text:"Admin Menu:"
-            color: "white"
-            visible: isAdmin
-        } //Maybe remove this later
-        Label{
-            text: "Create user"
+
+    // Function for adding labels with usernames and accessCodes
+    function adminViewShowActiveUsers(){
+        if (isAdmin) {
+            for (let i = 0; i < authUser.getAllUsers().length; i += 2) {
+                var user1 = authUser.getAllUsers()[i];
+                var user2 = (i + 1 < authUser.getAllUsers().length) ? authUser.getAllUsers()[i + 1] : "";
+                var labelText = user1 + " : " + user2;
+                labelsModel.append({ text: labelText, color: "White" });
+            }
+        } else {
+            console.log("isAdmin = false @ ActiveUsers.qml")
+        }
+    }
+
+    Column {
+        id: adminActiveUserCol
+        Label {
+            text: "Active users:"
             color: "white"
             visible: isAdmin
         }
-        Label{
-            text: "Edit user"
-            color: "white"
-            visible: isAdmin
+
+        Repeater {
+            model: ListModel {
+                id: labelsModel
+            }
+
+            Label {
+                text: model.text
+                color: "white"
+            }
         }
-        Label{
-            text: "Delete user"
-            color: "white"
-            visible: isAdmin
-        }
+
+//        Component.onCompleted: {
+//            adminViewShowActiveUsers();
+//        }
     }
 }

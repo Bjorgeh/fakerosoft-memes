@@ -2,7 +2,7 @@ import QtQuick
 import QtQuick.Window
 import QtQuick.Controls
 import "./login" as L
-import "./defaultpage" as D
+import "defaultpage" as D
 
 Window {
     id: root
@@ -34,9 +34,10 @@ Window {
 
         // Page 1 (login)
         Rectangle {
-
+            id: pageRec
 
             L.LoginPage {
+                id: page1
             }
 
             //Adds logo to loginpage
@@ -52,9 +53,14 @@ Window {
 
         // page 2 (default)
         Rectangle {
-
             D.StartPage{
+                id: page2
             }
+        }
+
+        //Should load pagecontent for current user
+        onCurrentIndexChanged: {
+           page2.loadContent()
         }
     }
 }

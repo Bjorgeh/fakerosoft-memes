@@ -15,6 +15,12 @@ import "StudentComponents/StudentButtons" as StudentButtons
 Page {
     id: defaultPage
     anchors.fill: parent
+
+    //Loads content on startPage for correct users
+    function loadContent(){
+        loadAdminContent.adminViewShowActiveUsers()
+    }
+
     Rectangle{
         anchors.fill: parent
         color: root.backgroundColor
@@ -34,7 +40,7 @@ Page {
                 Rectangle {
                     width: topMenuBar.width/5
                     height: topMenuBar.height
-                    color: topMenuBarColo
+                    color: topMenuBarColor
 
                     //imports Admin Create button
                     AdminButtons.AdminCreateUserButton{}
@@ -103,7 +109,8 @@ Page {
                 y: 15
 
                 //Shows acvite users - for admin
-                AdminComp.ActiveUsers{}
+                AdminComp.ActiveUsers{
+                id: loadAdminContent}
 
                 //Shows options - for teachers
                 TeacherComp.OptionListT{}

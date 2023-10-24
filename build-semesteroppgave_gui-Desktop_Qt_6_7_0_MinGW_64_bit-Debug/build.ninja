@@ -753,7 +753,7 @@ build .qt_plugins/Qt6_QmlPlugins_Imports_appsemesteroppgave_gui.cmake | ${cmake_
 #############################################
 # Phony custom command for CMakeFiles\appsemesteroppgave_gui_autogen_timestamp_deps
 
-build CMakeFiles/appsemesteroppgave_gui_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appsemesteroppgave_gui_autogen_timestamp_deps: phony .rcc/qmlcache/appsemesteroppgave_gui_qmlcache_loader.cpp C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a
+build CMakeFiles/appsemesteroppgave_gui_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appsemesteroppgave_gui_autogen_timestamp_deps: phony .rcc/qmlcache/appsemesteroppgave_gui_qmlcache_loader.cpp C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a
 
 
 #############################################
