@@ -59,6 +59,12 @@ Page {
                             //Returns true if user exist | authUser.authorize(userLogin)
                             console.log("Auth: " + authUser.authorize(userLogin))
                             if(authUser.authorize(userLogin)){
+
+                                //Updates bool variables for user role
+                                isAdmin = userLogin.getUserCode() === 1111 ? true : false
+                                isTeacher = userLogin.getUserCode() === 2222 ? true : false
+                                isStudent = userLogin.getUserCode() === 3333 ? true : false
+
                                 swipeViewFrontpage.currentIndex = 1;
                             }
 
@@ -74,9 +80,11 @@ Page {
                             loggedIn = userLogin.getUser();
 
                             //Updates bool variables for user role
-                            isAdmin = userLogin.getUserCode() === 1111 ? true : false
-                            isTeacher = userLogin.getUserCode() === 2222 ? true : false
-                            isStudent = userLogin.getUserCode() === 3333 ? true : false
+
+                            //Commented out for test.
+//                            isAdmin = userLogin.getUserCode() === 1111 ? true : false
+//                            isTeacher = userLogin.getUserCode() === 2222 ? true : false
+//                            isStudent = userLogin.getUserCode() === 3333 ? true : false
 
                             //console.log(isAdmin, isTeacher, isStudent)
                             //console.log(userLogin.getUserCode())

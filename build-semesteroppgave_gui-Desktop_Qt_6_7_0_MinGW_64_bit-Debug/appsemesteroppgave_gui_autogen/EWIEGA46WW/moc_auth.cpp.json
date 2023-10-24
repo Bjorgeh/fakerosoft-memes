@@ -13,6 +13,11 @@
                     ],
                     "name": "authorize",
                     "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "name": "getAllUsers",
+                    "returnType": "QList<QString>"
                 }
             ],
             "object": true,
