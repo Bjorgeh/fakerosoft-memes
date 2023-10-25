@@ -6,19 +6,20 @@ import QtQuick.Layouts 1.15
 Item {
 
     // Function for adding labels with usernames and accessCodes
-    function adminViewShowActiveUsers(){
+    function adminViewShowActiveUsers() {
         if (isAdmin) {
             for (let i = 0; i < authUser.getAllUsers().length; i += 2) {
                 var user1 = authUser.getAllUsers()[i];
                 var user2 = (i + 1 < authUser.getAllUsers().length) ? authUser.getAllUsers()[i + 1] : "";
                 var labelText = user1 + " : " + user2;
-                labelsModel.append({ text: labelText, color: "White" });
+                labelsModel.append({ text: labelText, color: "white" });
             }
         } else {
             console.log("isAdmin = false @ ActiveUsers.qml")
         }
     }
 
+    //Column showing labes & checkbuttons
     Column {
         id: adminActiveUserCol
         Label {
@@ -27,19 +28,25 @@ Item {
             visible: isAdmin
         }
 
+        //Model for adding labels
         Repeater {
             model: ListModel {
                 id: labelsModel
             }
 
-            Label {
-                text: model.text
-                color: "white"
+            //Sets label left in row and checkbox right
+            RowLayout {
+                Label {
+                    text: model.text
+                    color: "white"
+                    property bool checked: false
+                }
+
+                //Checkbox for marking usernames+codes in column.
+                CheckBox {
+                    //Functionality will come here.
+                }
             }
         }
-
-//        Component.onCompleted: {
-//            adminViewShowActiveUsers();
-//        }
     }
 }

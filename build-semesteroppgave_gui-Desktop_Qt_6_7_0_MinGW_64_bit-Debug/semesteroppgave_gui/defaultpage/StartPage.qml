@@ -110,7 +110,8 @@ Page {
 
                 //Shows acvite users - for admin
                 AdminComp.ActiveUsers{
-                id: loadAdminContent}
+                id: loadAdminContent
+                }
 
                 //Shows options - for teachers
                 TeacherComp.OptionListT{}
