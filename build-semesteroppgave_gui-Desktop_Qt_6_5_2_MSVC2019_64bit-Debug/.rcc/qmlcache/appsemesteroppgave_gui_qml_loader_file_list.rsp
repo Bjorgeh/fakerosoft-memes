@@ -1,0 +1,14 @@
+/qt/qml/semesteroppgave_gui/Main.qml
+/qt/qml/semesteroppgave_gui/login/LoginPage.qml
+/qt/qml/semesteroppgave_gui/defaultpage/StartPage.qml
+/qt/qml/semesteroppgave_gui/defaultpage/AdminComponents/ActiveUsers.qml
+/qt/qml/semesteroppgave_gui/defaultpage/TeacherComponents/OptionListT.qml
+/qt/qml/semesteroppgave_gui/defaultpage/StudentComponents/OptionList.qml
+/qt/qml/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton.qml
+/qt/qml/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminDeleteButton.qml
+/qt/qml/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminEditButton.qml
+/qt/qml/semesteroppgave_gui/defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom.qml
+/qt/qml/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom.qml
+/qt/qml/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentTakeCourse.qml
+/qt/qml/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentTakeTest.qml
+/qt/qml/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentViewGrades.qml

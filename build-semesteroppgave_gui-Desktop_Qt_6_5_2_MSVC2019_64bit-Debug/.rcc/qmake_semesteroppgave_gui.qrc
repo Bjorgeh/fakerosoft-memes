@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/semesteroppgave_gui">
+    <file alias="qmldir">D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/semesteroppgave_gui/qmldir</file>
+  </qresource>
+</RCC>
+

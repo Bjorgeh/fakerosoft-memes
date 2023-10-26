@@ -32,6 +32,8 @@ int users::getUserCode()
 int users::setCode(int code)
 {
     userCode = code;
+
+    return code;
 }
 
 //Sets new username to obj
