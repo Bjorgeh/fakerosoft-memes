@@ -1,0 +1,1851 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "appsemesteroppgave_gui.exe"
+		},
+		{
+			"path" : "appsemesteroppgave_gui.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"add_dependencies",
+			"qt6_target_qml_sources",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"set_source_files_properties",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide"
+		],
+		"files" : 
+		[
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+			"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:679:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 741,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 549,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 550,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 157,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 52,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 686,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 369,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 11
+			},
+			{
+				"file" : 12,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 12,
+				"line" : 39,
+				"parent" : 19
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 20
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 47,
+				"parent" : 21
+			},
+			{
+				"file" : 11,
+				"parent" : 22
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 41,
+				"parent" : 23
+			},
+			{
+				"file" : 10,
+				"parent" : 24
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 47,
+				"parent" : 27
+			},
+			{
+				"file" : 7,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 55,
+				"parent" : 29
+			},
+			{
+				"file" : 6,
+				"parent" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 31
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 52,
+				"parent" : 29
+			},
+			{
+				"file" : 13,
+				"parent" : 33
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 61,
+				"parent" : 34
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 20
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 47,
+				"parent" : 36
+			},
+			{
+				"file" : 15,
+				"parent" : 37
+			},
+			{
+				"command" : 7,
+				"file" : 15,
+				"line" : 55,
+				"parent" : 38
+			},
+			{
+				"file" : 14,
+				"parent" : 39
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 61,
+				"parent" : 40
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 20
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 47,
+				"parent" : 42
+			},
+			{
+				"file" : 17,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 55,
+				"parent" : 44
+			},
+			{
+				"file" : 16,
+				"parent" : 45
+			},
+			{
+				"command" : 6,
+				"file" : 16,
+				"line" : 61,
+				"parent" : 46
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 20
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 47,
+				"parent" : 48
+			},
+			{
+				"file" : 19,
+				"parent" : 49
+			},
+			{
+				"command" : 7,
+				"file" : 19,
+				"line" : 52,
+				"parent" : 50
+			},
+			{
+				"file" : 18,
+				"parent" : 51
+			},
+			{
+				"command" : 6,
+				"file" : 18,
+				"line" : 61,
+				"parent" : 52
+			},
+			{
+				"command" : 7,
+				"file" : 19,
+				"line" : 40,
+				"parent" : 50
+			},
+			{
+				"file" : 22,
+				"parent" : 54
+			},
+			{
+				"command" : 12,
+				"file" : 22,
+				"line" : 39,
+				"parent" : 55
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 56
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 47,
+				"parent" : 57
+			},
+			{
+				"file" : 21,
+				"parent" : 58
+			},
+			{
+				"command" : 7,
+				"file" : 21,
+				"line" : 52,
+				"parent" : 59
+			},
+			{
+				"file" : 20,
+				"parent" : 60
+			},
+			{
+				"command" : 6,
+				"file" : 20,
+				"line" : 61,
+				"parent" : 61
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 53,
+				"parent" : 23
+			},
+			{
+				"file" : 23,
+				"parent" : 63
+			},
+			{
+				"command" : 6,
+				"file" : 23,
+				"line" : 61,
+				"parent" : 64
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 52,
+				"parent" : 44
+			},
+			{
+				"file" : 24,
+				"parent" : 66
+			},
+			{
+				"command" : 6,
+				"file" : 24,
+				"line" : 61,
+				"parent" : 67
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 610,
+				"parent" : 16
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 2288,
+				"parent" : 69
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 25,
+				"line" : 1,
+				"parent" : 71
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 709,
+				"parent" : 72
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 636,
+				"parent" : 73
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 636,
+				"parent" : 74
+			},
+			{
+				"command" : 15,
+				"file" : 5,
+				"line" : 2963,
+				"parent" : 75
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 2816,
+				"parent" : 76
+			},
+			{
+				"command" : 21,
+				"file" : 5,
+				"line" : 517,
+				"parent" : 16
+			},
+			{
+				"command" : 20,
+				"file" : 5,
+				"line" : 2594,
+				"parent" : 78
+			},
+			{
+				"command" : 20,
+				"file" : 5,
+				"line" : 2619,
+				"parent" : 78
+			},
+			{
+				"command" : 23,
+				"file" : 5,
+				"line" : 2424,
+				"parent" : 78
+			},
+			{
+				"command" : 22,
+				"file" : 0,
+				"line" : 1136,
+				"parent" : 81
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2585,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2609,
+				"parent" : 78
+			},
+			{
+				"command" : 27,
+				"file" : 5,
+				"line" : 561,
+				"parent" : 16
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 85
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2055,
+				"parent" : 86
+			},
+			{
+				"command" : 22,
+				"file" : 0,
+				"line" : 1708,
+				"parent" : 87
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 600,
+				"parent" : 16
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 28,
+				"file" : 5,
+				"line" : 2175,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 1037,
+				"parent" : 91
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2071,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2224,
+				"parent" : 69
+			},
+			{
+				"command" : 27,
+				"file" : 5,
+				"line" : 2307,
+				"parent" : 69
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 120
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2055,
+				"parent" : 121
+			},
+			{
+				"command" : 22,
+				"file" : 0,
+				"line" : 1708,
+				"parent" : 122
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 704,
+				"parent" : 72
+			},
+			{
+				"command" : 22,
+				"file" : 0,
+				"line" : 1792,
+				"parent" : 124
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-permissive-"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-utf-8"
+				},
+				{
+					"fragment" : "-std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/appsemesteroppgave_gui_autogen/include"
+				},
+				{
+					"backtrace" : 79,
+					"path" : "D:/Dev/fakerosoft-memes/semesteroppgave_gui"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQml/6.5.2"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQml/6.5.2/QtQml"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtCore/6.5.2"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtCore/6.5.2/QtCore"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtCore"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQml"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				6,
+				8,
+				10,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				38
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-permissive-"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-utf-8"
+				},
+				{
+					"fragment" : "-std:c++17"
+				},
+				{
+					"backtrace" : 84,
+					"fragment" : "/bigobj"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/appsemesteroppgave_gui_autogen/include"
+				},
+				{
+					"backtrace" : 79,
+					"path" : "D:/Dev/fakerosoft-memes/semesteroppgave_gui"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQml/6.5.2"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQml/6.5.2/QtQml"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtCore/6.5.2"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtCore/6.5.2/QtCore"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtCore"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQml"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 80,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 70,
+			"id" : "appsemesteroppgave_gui_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "appsemesteroppgave_gui_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appsemesteroppgave_gui_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appsemesteroppgave_gui_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appsemesteroppgave_gui::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/semesteroppgave_gui"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:windows",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-DYNAMICBASE",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-NXCOMPAT",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-LARGEADDRESSAWARE",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Quickd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6QmlModelsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Qmld.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Networkd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6OpenGLd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Guid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Cored.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 53,
+				"fragment" : "mpr.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 53,
+				"fragment" : "userenv.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 62,
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6EntryPointd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "shell32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 68,
+				"fragment" : "d3d11.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 68,
+				"fragment" : "dxgi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 68,
+				"fragment" : "dxguid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 68,
+				"fragment" : "dcomp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "user32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "appsemesteroppgave_gui",
+	"nameOnDisk" : "appsemesteroppgave_gui.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				8,
+				10,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				38
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				9,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				39,
+				41,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				5,
+				7
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				40
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/appsemesteroppgave_gui_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/meta_types/qt6appsemesteroppgave_gui_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/appsemesteroppgave_gui_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qrc_qmake_semesteroppgave_gui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 89,
+			"path" : "auth.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 89,
+			"compileGroupIndex" : 0,
+			"path" : "auth.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 89,
+			"path" : "users.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 89,
+			"compileGroupIndex" : 0,
+			"path" : "users.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 93,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_Main_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 94,
+			"path" : "login/LoginPage.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 95,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_login/LoginPage_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"path" : "defaultpage/StartPage.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 97,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StartPage_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"path" : "defaultpage/AdminComponents/ActiveUsers.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminComponents/ActiveUsers_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"path" : "defaultpage/TeacherComponents/OptionListT.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 101,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/TeacherComponents/OptionListT_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"path" : "defaultpage/StudentComponents/OptionList.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/OptionList_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"path" : "defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 105,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "defaultpage/AdminComponents/AdminButtons/AdminDeleteButton.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminComponents/AdminButtons/AdminDeleteButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"path" : "defaultpage/AdminComponents/AdminButtons/AdminEditButton.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 109,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminComponents/AdminButtons/AdminEditButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"path" : "defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 113,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"path" : "defaultpage/StudentComponents/StudentButtons/StudentTakeCourse.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/StudentButtons/StudentTakeCourse_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"path" : "defaultpage/StudentComponents/StudentButtons/StudentTakeTest.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/StudentButtons/StudentTakeTest_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 118,
+			"path" : "defaultpage/StudentComponents/StudentButtons/StudentViewGrades.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/StudentButtons/StudentViewGrades_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 123,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/semesteroppgave_gui/qmldir",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 125,
+			"path" : "Images/Logo/FakerosoftLogo.jpg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/appsemesteroppgave_gui_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/meta_types/qt6appsemesteroppgave_gui_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/appsemesteroppgave_gui_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qrc_qmake_semesteroppgave_gui.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_login/LoginPage_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StartPage_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminComponents/ActiveUsers_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/TeacherComponents/OptionListT_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/OptionList_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminComponents/AdminButtons/AdminDeleteButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/AdminComponents/AdminButtons/AdminEditButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/StudentButtons/StudentTakeCourse_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/StudentButtons/StudentTakeTest_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qmlcache/appsemesteroppgave_gui_defaultpage/StudentComponents/StudentButtons/StudentViewGrades_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/.rcc/qrc_appsemesteroppgave_gui_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/appsemesteroppgave_gui_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Dev/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/meta_types/appsemesteroppgave_gui_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 6,
+			"path" : "C:/Qt/6.5.2/msvc2019_64/metatypes/qt6core_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 17,
+			"path" : "C:/Qt/6.5.2/msvc2019_64/metatypes/qt6qml_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 17,
+			"path" : "C:/Qt/6.5.2/msvc2019_64/metatypes/qt6network_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "C:/Qt/6.5.2/msvc2019_64/metatypes/qt6quick_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "C:/Qt/6.5.2/msvc2019_64/metatypes/qt6gui_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "C:/Qt/6.5.2/msvc2019_64/metatypes/qt6qmlmodels_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "C:/Qt/6.5.2/msvc2019_64/metatypes/qt6opengl_metatypes.json",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

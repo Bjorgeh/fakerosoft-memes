@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="/qt/qml/semesteroppgave_gui/">
+    <file alias="Main.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/Main.qml</file>
+    <file alias="login/LoginPage.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/login/LoginPage.qml</file>
+    <file alias="defaultpage/StartPage.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/StartPage.qml</file>
+    <file alias="defaultpage/AdminComponents/ActiveUsers.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/AdminComponents/ActiveUsers.qml</file>
+    <file alias="defaultpage/TeacherComponents/OptionListT.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/TeacherComponents/OptionListT.qml</file>
+    <file alias="defaultpage/StudentComponents/OptionList.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/StudentComponents/OptionList.qml</file>
+    <file alias="defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminCreateUserButton.qml</file>
+    <file alias="defaultpage/AdminComponents/AdminButtons/AdminDeleteButton.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminDeleteButton.qml</file>
+    <file alias="defaultpage/AdminComponents/AdminButtons/AdminEditButton.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/AdminComponents/AdminButtons/AdminEditButton.qml</file>
+    <file alias="defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/TeacherComponents/TeacherButtons/TeacherCreateClassroom.qml</file>
+    <file alias="defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentEnterClassroom.qml</file>
+    <file alias="defaultpage/StudentComponents/StudentButtons/StudentTakeCourse.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentTakeCourse.qml</file>
+    <file alias="defaultpage/StudentComponents/StudentButtons/StudentTakeTest.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentTakeTest.qml</file>
+    <file alias="defaultpage/StudentComponents/StudentButtons/StudentViewGrades.qml">D:/Dev/fakerosoft-memes/semesteroppgave_gui/defaultpage/StudentComponents/StudentButtons/StudentViewGrades.qml</file>
+    <file alias="Images/Logo/FakerosoftLogo.jpg">D:/Dev/fakerosoft-memes/semesteroppgave_gui/Images/Logo/FakerosoftLogo.jpg</file>
+  </qresource>
+</RCC>
+
