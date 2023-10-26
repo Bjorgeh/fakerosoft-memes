@@ -1,2 +1,0 @@
-C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/include/../EWIEGA46WW/moc_auth.cpp.json
-C:/fakerosoft-memes/build-semesteroppgave_gui-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appsemesteroppgave_gui_autogen/include/../EWIEGA46WW/moc_users.cpp.json
