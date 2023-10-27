@@ -2,7 +2,7 @@
 System design and architecture
 
 Important info for testing:<br>
-Project is coded in Qt creator 11.0.3 - with kit Desktop Qt 6.7.0 MinGW 64-bit
+Project is developed in Qt creator 11.0.3 - with kit Desktop Qt 6.7.0 MinGW 64-bit
 
 High Level functionality diagram for the project
 
